@@ -1,0 +1,20 @@
+ .root {
+   display: flex;
+ }
+
+ .mainContent {
+   flex: 1;
+   padding: 4rem;
+   position: relative;
+   overflow: hidden;
+ }
+
+ @media (max-width: 991.98px) {
+   .root {
+     flex-direction: column;
+   }
+
+   .mainContent {
+     padding: 0;
+   }
+ }
